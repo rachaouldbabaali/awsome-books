@@ -21,11 +21,8 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
 # 📖 CC GLOBAL SUMMIT 2023 WEBSITE <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences.
 
 **CC GLOBAL SUMMIT PROJECT** This project that we build is based on a website allowing users to add/remove books from a list in real time.
 
@@ -42,7 +39,6 @@
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
@@ -53,7 +49,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo(still in development) <a name="live-demo"></a>
 
@@ -70,7 +65,6 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 
 To get a local copy up and running, follow these steps.
 
@@ -110,7 +104,6 @@ Install this project with:
 To use this project on the `index.html` file with your prefered browser
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
 ## 👥 Author <a name="authors"></a>
 
@@ -153,7 +146,7 @@ To use this project on the `index.html` file with your prefered browser
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/rachaouldbabaali/awsome-books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,8 +154,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project please give a star to this project
+If you like this project please give a star ⭐️ to this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,7 +169,7 @@ I would like to thank Microverse team, coding partners for the amazing collobrat
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENCE) licensed.
+This project is [MIT](https://github.com/rachaouldbabaali/awsome-books/blob/module2day2/license) licensed.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
