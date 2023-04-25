@@ -22,9 +22,9 @@
 - [📝 License](#license)
 
 
-# 📖 CC GLOBAL SUMMIT 2023 WEBSITE <a name="about-project"></a>
+# 📖 AWESOME BOOK <a name="about-project"></a>
 
-**CC GLOBAL SUMMIT PROJECT** This project that we build is based on a website allowing users to add/remove books from a list in real time.
+**AWESOME BOOK** This project that we build is based on a website allowing users to add/remove books from a list in real time.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,8 +42,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Added a user side feature to add a baaok with the name and author of it.**
-- **Added a user side feature to add a baaok with the name and author of it.**
+- **Added a user side feature to add a book list with the name of it using javascript classes.**
+- **Added a user side feature to add a book list with the  author of it using javascript classes.**
 - **Added JavaScript to manipulate DOM elements and events.**
 
 
