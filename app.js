@@ -83,45 +83,45 @@ document.querySelector('#bookOfList').addEventListener('click', (e) => {
   Book.removeBook(e.target.previousElementSibling.textContent);
 });
 
+// Get current date and display it in the footer
+const options = {
+  year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true,
+};
+const currentTime = new Date().toLocaleString('en-US', options);
+document.getElementById('date').innerHTML = currentTime;
 
- // Get current date and display it in the footer
-var options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
-var currentTime = new Date().toLocaleString('en-US', options);
- document.getElementById("date").innerHTML = currentTime ;
+//  navigation
 
-//  navigation 
+const bookListSection = document.getElementById('booklist');
+const addNewBookSection = document.getElementById('addnewbook');
+const contactSection = document.getElementById('contact');
 
-var bookListSection = document.getElementById("booklist");
-var addNewBookSection = document.getElementById("addnewbook");
-var contactSection = document.getElementById("contact");
-
-var sections = document.querySelectorAll('section');
-var links = document.querySelectorAll('a[href^="#"]');
+const sections = document.querySelectorAll('section');
+const links = document.querySelectorAll('a[href^="#"]');
 
 // Set the default link and section
-var defaultLink = document.querySelector('#booklist-link');
-var defaultSection = document.querySelector('#booklist');
+const defaultLink = document.querySelector('#booklist-link');
+const defaultSection = document.querySelector('#booklist');
 
 // Remove the hide class from the default section
 defaultSection.classList.remove('hide');
 
 // Trigger the click event on the default link
-var event = new MouseEvent('click');
+const event = new MouseEvent('click');
 defaultLink.dispatchEvent(event);
 
-links.forEach(function(link) {
-  link.addEventListener("click", function(event) {
-      // Prevent default link behavior
-      event.preventDefault();
+links.forEach((link) => {
+  link.addEventListener('click', (event) => {
+    // Prevent default link behavior
+    event.preventDefault();
 
-      // Toggle the hide class for each section
-      sections.forEach(function(section) {
-          if (section.id === link.getAttribute('href').substring(1)) {
-              section.classList.remove("hide");
-          } else {
-              section.classList.add("hide");
-          }
-      });
+    // Toggle the hide class for each section
+    sections.forEach((section) => {
+      if (section.id === link.getAttribute('href').substring(1)) {
+        section.classList.remove('hide');
+      } else {
+        section.classList.add('hide');
+      }
+    });
   });
 });
-
