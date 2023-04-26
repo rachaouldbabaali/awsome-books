@@ -98,6 +98,7 @@ nav h1 {
 
 #navlinks li {
   margin-right: 1rem;
+  
 }
 
 #date{
@@ -106,6 +107,7 @@ nav h1 {
   position: relative;
   justify-content: flex-end;
   top:3rem;
+  margin-top: .8rem;
   
 }
 
@@ -122,5 +124,20 @@ footer {
 }
 .main{
   height: 80vh;
+}
+#navlinks li a{
+  text-decoration: none;
+  color: black;
+}
+#contact  {
+  margin: auto;
+  padding-top: 5rem;
+  width: 80%;
+  text-align: center;
+}
+#contact ul  {
+  padding-top: 2rem;
+  padding-left: 30%;
+   text-align: left;
 }
 
