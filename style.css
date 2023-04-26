@@ -114,9 +114,13 @@ nav h1 {
 }
 
 footer {
+  position: fixed;
+  bottom: 10px;
   width: 90%;
   border: 2px solid black;
   padding-left: 1rem;
 }
-
+.main{
+  height: 80vh;
+}
 
